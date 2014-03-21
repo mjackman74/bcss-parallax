@@ -90,8 +90,8 @@ h2{
 
 #second .bg{
 	background: url("http://placehold.it/800x300/00cc00") 50% 0 fixed;
-	margin: 20px;
-	padding: 10px;
+	margin: 20px 350px;
+	padding: 5px;
 	position: absolute;
 	z-index: 200;
 }
@@ -117,14 +117,15 @@ h2{
 	width: 980px;
 }
 
-.story .float-left, .story .float-right{
+.story .float-left, .story .float-right .story .container{
 	padding: 100px 0 0 0;
 	position: relative;
 	width: 350px;	
 }
 
-.story .float-full, {
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 700px;	
+
+.story .container{
+	padding-top: 75px;
 }
+
+
