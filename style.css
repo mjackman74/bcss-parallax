@@ -82,7 +82,7 @@ h2{
 }
 
 #intro{
-	background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;
+	background:url("http://placehold.it/1900x911/ff0000">) 50% 0 no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -90,7 +90,7 @@ h2{
 }
 
 #second{
-	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
+	background: url("http://placehold.it/1900x911/ff00ff") 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
