@@ -80,11 +80,10 @@ h2{
 }
 
 #second{
-	background: url("http://placehold.it/1900x1100/ff00ff") 50% 0 no-repeat fixed;
+	background: url("images/retusus1900x1300-darker.png") 50% 0 no-repeat fixed;
 	color: white;
 	height: 800px;
 	margin: 0 auto;
-/*	overflow: hidden;*/
 	padding: 0;
 }
 
@@ -98,13 +97,14 @@ h2{
 
 #third{
 	background: url("http://placehold.it/1900x1200/ffff00/000000") 50% 0 no-repeat fixed;
-	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
+	color: black;
+	height: 800px;
+	padding: 0;	
 }
 
-#fifth{
-	background: url("http://placehold.it/1900x400");
+#fourth{
+	background: url("http://placehold.it/1900x400/222222/222222");
+	color: #bebebe;
 	height: 300px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
@@ -112,20 +112,19 @@ h2{
 
 .story{
 	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
+	overflow: none;
+	max-width: 950px;
 }
 
 .story .float-left, .story .float-right .story .calendar{
-	padding: 100px 0 0 0;
+	padding: 50px 0 0 0;
 	position: relative;
 	width: 350px;	
 }
 
 
-.story .calendar{
-	padding-top: 70px;
+.story .calendar {
+	padding-top: 110px;
 	max-width: 950px;
 }
 
