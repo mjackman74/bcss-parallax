@@ -2,6 +2,7 @@
 /* CSS Document */
 
 body{
+	background:#000;
 	margin: 0;
 	min-width: 980px;
 	padding: 0;
@@ -71,7 +72,7 @@ h2{
 }
 
 #intro{
-	background:url("http://placehold.it/1900x600/85004b") 50% 0 no-repeat fixed;
+	background:url("http://placehold.it/1900x900/85004b") 50% 0 no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -79,26 +80,24 @@ h2{
 }
 
 #second{
-	background: url("http://placehold.it/1900x920/ff00ff") 50% 0 no-repeat fixed;
+	background: url("http://placehold.it/1900x1100/ff00ff") 50% 0 no-repeat fixed;
 	color: white;
 	height: 800px;
 	margin: 0 auto;
-	overflow: hidden;
+/*	overflow: hidden;*/
 	padding: 0;
 }
-/*
+
 #second .bg{
-	background: url("http://placehold.it/800x300/00cc00") 50% 0 no-repeat fixed;
-	height: 1300px;
-	width: 900px;
-	margin: 0 auto;
-	padding: 0;
+	background: url("http://placehold.it/800x300/00cc00") 50% 0 fixed;
+	margin: 20px;
+	padding: 10px;
 	position: absolute;
 	z-index: 200;
 }
-*/
+
 #third{
-	background: url("http://placehold.it/1900x800/ffff00/000000") 50% 0 no-repeat fixed;
+	background: url("http://placehold.it/1900x1200/ffff00/000000") 50% 0 no-repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
@@ -122,4 +121,10 @@ h2{
 	padding: 100px 0 0 0;
 	position: relative;
 	width: 350px;	
+}
+
+.story .float-full, {
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 700px;	
 }
