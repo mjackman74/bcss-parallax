@@ -117,15 +117,16 @@ h2{
 	width: 980px;
 }
 
-.story .float-left, .story .float-right .story .container{
+.story .float-left, .story .float-right .story .calendar{
 	padding: 100px 0 0 0;
 	position: relative;
 	width: 350px;	
 }
 
 
-.story .container{
-	padding-top: 75px;
+.story .calendar{
+	padding-top: 70px;
+	max-width: 950px;
 }
 
 
