@@ -64,6 +64,7 @@ h2{
 }
 
 #nav li{
+	color:white;
 	margin: 0 0 15px 0;	
 }
 
@@ -88,7 +89,8 @@ h2{
 }
 
 #second .bg{
-	background: url("http://placehold.it/800x300/00cc00") 50% 0 fixed;
+	background: url("http://placehold.it/300x75/dddd00/aaaa00&text=Next Event") 50% 0 fixed;
+	color:black;
 	margin: 20px 350px;
 	padding: 5px;
 	position: absolute;
@@ -96,7 +98,7 @@ h2{
 }
 
 #third{
-	background: url("http://placehold.it/1900x1200/ffff00/000000") 50% 0 no-repeat fixed;
+	background: url("http://placehold.it/1900x1200/336600/114400&text=History") 50% 0 no-repeat fixed;
 	color: black;
 	height: 800px;
 	padding: 0;	
